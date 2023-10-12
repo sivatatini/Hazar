@@ -1,2 +1,7 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
+*.ext filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+mongod filter=lfs diff=lfs merge=lfs -text
+mongos filter=lfs diff=lfs merge=lfs -text
+*mongod filter=lfs diff=lfs merge=lfs -text
 mongodb-macos-aarch64-6.0.7/bin/mongod filter=lfs diff=lfs merge=lfs -text
