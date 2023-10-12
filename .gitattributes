@@ -1,1 +1,2 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
 mongodb-macos-aarch64-6.0.7/bin/mongod filter=lfs diff=lfs merge=lfs -text
