@@ -29,5 +29,27 @@ Hazar is a telugu word which translates to attendance or prescence is the best d
 ## Stop MongoDb
 
     brew services stop mongodb-community@6.0
+
+## API
+### Read APIs
+    * localhost:4000/api/students - Get list of students
+    * localhost:4000/api/students/<ID> - Get student by ID
+### Write APIs
+    * POST - localhost:4000/api/students - Put a new student
+    ```
+    {
+    "name": "student_name",
+    "roll": 4567
+    }
+    ```
+    * PUT - localhost:4000/api/students/<ID> - Update a student
+    ```
+    {
+    "name": "student_name",
+    "roll": 4568
+    }
+    ```
+    * DELETE - localhost:4000/api/students/<ID> - Deletes student by ID
+
 ## Reference
 https://towardsdatascience.com/build-a-rest-api-with-node-express-and-mongodb-937ff95f23a5

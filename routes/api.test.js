@@ -35,7 +35,7 @@ describe('apis service', () => {
                 name: "testname",
                 roll: 1234,
             }
-          , 'findOne');
+          , 'find');
       const res = await request(app).get('/api/students/5678');
         
       expect(res.statusCode).toEqual(200);
